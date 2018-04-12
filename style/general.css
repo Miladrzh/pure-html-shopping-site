@@ -11,9 +11,11 @@
 }
 
 .navbar{
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-around;
-    width: 80%;
+    width: 90%;
 }
 
 .categories{
@@ -83,4 +85,23 @@
     border-radius: 120px;    
     width: 240px;
     height: 20px;
+}
+
+.navbar-button {
+    height: 90px;
+    width: 150px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: gray;
+    line-height: 0.08em;
+    background-color:white;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+    box-shadow: 0 0px #999;
 }
