@@ -105,3 +105,12 @@
     border-radius: 5px;
     box-shadow: 0 0px #999;
 }
+
+.navbar-svg{
+    height: 50px;
+    width: 50px;
+    margin-top: -15px;
+    margin-left:auto;
+    margin-right: auto;
+    fill: gray;
+}
