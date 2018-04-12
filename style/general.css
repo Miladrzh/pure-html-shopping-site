@@ -1,0 +1,86 @@
+.page-header{
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-panel{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.categories{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.top-title{
+    margin-top: -20px;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.login-button {
+    height: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    line-height: 0.06em;
+    background-color:gray;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 120px;
+    box-shadow: 0 0px #999;
+}
+
+.top-buttons{
+    margin-top: -15px;
+}
+
+.register-button {
+
+    height: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: gray;
+    line-height: 0.08em;
+    background-color:white;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 120px;
+    box-shadow: 0 0px #999;
+}
+
+.top-search{
+    margin-top: -12px;
+    text-align: center;
+    border-radius: 80px;
+    background: white url(search.png) left no-repeat;
+}
+
+.top-search-input{
+    border-radius: 120px;    
+    width: 240px;
+    height: 20px;
+}
