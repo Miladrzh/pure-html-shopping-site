@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-around;
     width: 90%;
+    
 }
 
 .categories{
@@ -26,6 +27,17 @@
     display: flex;
     justify-content: space-around;
 }
+
+.categories-category{
+    color: gray;
+}
+
+.categories-category:hover{
+    color:rgb(34, 96, 231);
+    cursor:pointer;
+    border-bottom: 1px dashed rgb(34, 96, 231);;
+}
+
 .top-title{
     margin-top: -20px;
     color: gray;
@@ -51,12 +63,29 @@
     box-shadow: 0 0px #999;
 }
 
+.login-button:hover{
+    height: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    line-height: 0.06em;
+    background-color: rgb(34, 96, 231);
+    border-style: solid;
+    border-color: rgb(34, 96, 231);
+    border-radius: 120px;
+    box-shadow: 0 0px #999;
+}
+
 .top-buttons{
     margin-top: -15px;
 }
 
 .register-button {
-
     height: 20px;
     display: inline-block;
     padding: 15px 25px;
@@ -70,6 +99,24 @@
     background-color:white;
     border-style: solid;
     border-color: gray;
+    border-radius: 120px;
+    box-shadow: 0 0px #999;
+}
+
+.register-button:hover {
+    height: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(34, 96, 231);
+    line-height: 0.08em;
+    background-color:white;
+    border-style: solid;
+    border-color: rgb(34, 96, 231); 
     border-radius: 120px;
     box-shadow: 0 0px #999;
 }
@@ -97,11 +144,32 @@
     text-align: center;
     text-decoration: none;
     outline: none;
+    fill: gray;
     color: gray;
     line-height: 0.08em;
     background-color:white;
     border-style: solid;
     border-color: gray;
+    border-radius: 5px;
+    box-shadow: 0 0px #999;
+}
+
+.navbar-button:hover {
+    height: 90px;
+    width: 150px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    fill: white;
+    color: white;
+    line-height: 0.08em;
+    background-color:rgb(34, 96, 231);
+    border-style: solid;
+    border-color: rgb(34, 96, 231);
     border-radius: 5px;
     box-shadow: 0 0px #999;
 }
@@ -112,5 +180,15 @@
     margin-top: -15px;
     margin-left:auto;
     margin-right: auto;
-    fill: gray;
+}
+
+.page-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 10%;
+    display: flex;
+    background: rgba(139, 129, 129, 0.637);
+    height: 150px;
+    width: 100%;
 }
