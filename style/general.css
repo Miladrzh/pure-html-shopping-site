@@ -155,6 +155,7 @@
 }
 
 .navbar-button:hover {
+    font-weight: bold;
     height: 90px;
     width: 150px;
     display: inline-block;
@@ -188,7 +189,78 @@
     left: 0;
     opacity: 10%;
     display: flex;
-    background: rgba(139, 129, 129, 0.637);
-    height: 150px;
+    justify-content: space-around;
+    background: rgba(139, 129, 129, 0.294);
+    height: 130px;
     width: 100%;
+}
+
+.page-footer-copyright{
+    color: rgb(46, 45, 45);
+    width: 25%;
+    margin-top: 20px;
+    font-size: 1.1ex;
+    text-align: right;
+    font-weight: 700;
+}
+
+.page-footer-social{
+    margin-top: 20px;
+}
+
+.page-footer-social-text{
+    font-size:1.3ex;
+    font-weight: 600;
+    text-align: center; 
+    color: rgb(51, 51, 51);
+}
+
+.page-footer-list{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-entry{
+    
+    margin-top: 2px;
+    font-size: 0.8em;
+    color: rgb(65, 64, 64);
+    text-align: center;  
+}
+
+.footer-entry:hover{
+    font-weight: 900;
+    cursor: pointer;
+    color: rgb(34, 96, 231);
+    margin-top: 2px;
+    font-size: 0.8em;
+    text-align: center;  
+}
+
+.page-footer-social-icons{
+    position: relative;
+    left: 40px;
+    width:60%;
+    margin-top: 10px;   
+    display: flex;
+    justify-content: space-around;      
+}
+
+.social-logo{
+    left: 30px;
+    margin-left:auto;
+    margin-right: auto; 
+    fill: gray;
+    width: 32px;
+    height: 32px;  
+}
+
+.social-logo:hover{
+    left: 30px;
+    margin-left:auto;
+    margin-right: auto; 
+    cursor: pointer;
+    fill: rgb(34, 96, 231);;
+    width: 32px;
+    height: 32px;  
 }
