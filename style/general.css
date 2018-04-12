@@ -121,6 +121,7 @@
     box-shadow: 0 0px #999;
 }
 
+
 .top-search{
     margin-top: -12px;
     text-align: center;
@@ -132,6 +133,15 @@
     border-radius: 120px;    
     width: 240px;
     height: 20px;
+}
+
+
+.top-search-input:hover{
+    border-radius: 120px;    
+    width: 240px;
+    height: 20px;
+    border-color: rgb(34, 96, 231) !important;
+    fill:  rgb(34, 96, 231) !important;
 }
 
 .navbar-button {
@@ -165,14 +175,55 @@
     text-align: center;
     text-decoration: none;
     outline: none;
-    fill: white;
-    color: white;
+    fill: white !important;
+    color: white !important;
     line-height: 0.08em;
-    background-color:rgb(34, 96, 231);
+    background-color:rgb(34, 96, 231) !important;
+    border-style: solid;
+    border-color: rgb(34, 96, 231) !important;
+    border-radius: 5px;
+    box-shadow: 0 0px #999 !important;
+}
+
+.default-navbar-button{
+    height: 90px;
+    width: 150px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    fill: rgb(34, 96, 231);
+    color: rgb(34, 96, 231);
+    line-height: 0.08em;
+    background-color:white;
     border-style: solid;
     border-color: rgb(34, 96, 231);
     border-radius: 5px;
     box-shadow: 0 0px #999;
+}
+
+.default-navbar-button:hover {
+    font-weight: bold;
+    height: 90px;
+    width: 150px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    fill: white ;
+    color: white ;
+    line-height: 0.08em;
+    background-color:rgb(34, 96, 231) ;
+    border-style: solid;
+    border-color: rgb(34, 96, 231) ;
+    border-radius: 5px;
+    box-shadow: 0 0px #999 ;
 }
 
 .navbar-svg{
