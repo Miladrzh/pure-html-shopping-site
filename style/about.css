@@ -44,6 +44,12 @@
     box-shadow: 0 0px #999;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:rgb(34, 96, 231);
+    opacity: 1; /* Firefox */
+}
+
+
 .field-button:hover {
     margin-top: 100px;
     height: 3px;
@@ -61,6 +67,48 @@
     background-color:rgb(34, 96, 231);
     border-style: solid;
     border-color: gray;
+    border-radius: 120px;
+    box-shadow: 0 0px #999;
+}
+
+.ozv-button{
+    margin-left: 99px;
+    margin-top: 10px;
+    height: 3px;
+    width: 65px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white ;
+    line-height: 0.06em;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 120px;
+    box-shadow: 0 0px #999;
+}
+
+.ozv-button:hover{
+    margin-left: 99px;
+    margin-top: 10px;
+    height: 3px;
+    width: 70px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white ;
+    line-height: 0.06em;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
     border-radius: 120px;
     box-shadow: 0 0px #999;
 }
