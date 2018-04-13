@@ -331,3 +331,24 @@
     width: 32px;
     height: 32px;  
 }
+
+.gray-title{
+    text-align:right; 
+    font-weight: 700; 
+    font-size:0.95em;  
+    color:gray;
+}
+
+.gray-body{
+    margin-top:10px; text-align:right; font-size:0.85em;  color: gray;
+    width: 100%;
+}
+
+.blutex{
+    text-align: right;
+    color: rgb(34, 96, 231);
+    font-size: 0.8em;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+}

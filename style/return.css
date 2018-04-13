@@ -18,14 +18,7 @@
     height: 269px;
 }
 
-.blutex{
-    text-align: right;
-    color: rgb(34, 96, 231);
-    font-size: 0.8em;
-    margin-top: 20px;
-    font-weight: 700;
-    margin-right: 10px;
-}
+
 
 ::placeholder { 
     color: rgb(73, 73, 73);
@@ -79,6 +72,7 @@
 .return-input{
     height:20px;
     background-color:rgba(185, 194, 243, 0.493);
+    border-color: rgba(185, 194, 243, 0.493);
     text-align:right; 
     border-radius: 120px; 
     width:100%;
