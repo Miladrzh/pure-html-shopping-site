@@ -1,3 +1,16 @@
+@font-face {
+    font-family: Shabnam;
+    src: url('Shabnam.eot');
+    src: url('Shabnam.eot?#iefix') format('embedded-opentype'),
+         url('Shabnam.woff') format('woff'),
+         url('Shabnam.ttf') format('truetype');
+    font-weight: normal;
+  }
+
+  *{
+      font-family: 'Shabnam';
+  }
+
 .page-header{
     width: 93%;
     margin-left: auto;
@@ -35,7 +48,7 @@
 .categories-category:hover{
     color:rgb(34, 96, 231);
     cursor:pointer;
-    border-bottom: 1px dashed rgb(34, 96, 231);;
+    border-bottom: 1px dashed rgb(34, 96, 231);
 }
 
 .top-title{
@@ -159,6 +172,7 @@
     line-height: 0.08em;
     background-color:white;
     border-style: solid;
+    border-width: 1.5px;
     border-color: gray;
     border-radius: 5px;
     box-shadow: 0 0px #999;
