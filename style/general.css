@@ -186,6 +186,7 @@
 }
 
 .default-navbar-button{
+    font-weight: bold;
     height: 90px;
     width: 150px;
     display: inline-block;
@@ -224,6 +225,7 @@
     border-color: rgb(34, 96, 231) ;
     border-radius: 5px;
     box-shadow: 0 0px #999 ;
+    
 }
 
 .navbar-svg{
@@ -235,14 +237,14 @@
 }
 
 .page-footer{
-    position: absolute;
+    margin-top: 40px;
     bottom: 0;
     left: 0;
     opacity: 10%;
     display: flex;
     justify-content: space-around;
     background: rgba(139, 129, 129, 0.294);
-    height: 130px;
+    height: 150px;
     width: 100%;
 }
 
